@@ -1,0 +1,64 @@
+.brand-image{
+  height: 50px;
+  width: auto;
+  margin: 0
+}
+#maincontent {
+  padding-top: 150px;
+}
+
+.name {
+  font-size: 40px !important;
+}
+
+.navbar-custom {
+  background: #3a3a3a;
+}
+
+#orange {
+  color: #f07c01;
+}
+
+.row-custom {
+  margin: 0;
+}
+
+.star-light {
+  border-color: #ef7c01 !important;
+}
+
+.skills {
+  font-family: times-new-roman;
+}
+
+section.success {
+  background-color: #2c3e50;
+}
+
+.skills {
+  font-size: 16px !important;
+}
+
+header {
+  background-color: #2c3e50;
+}
+
+.carousel-control.right {
+  background-image: none;
+}
+
+.carousel-control.left {
+  background-image: none;
+}
+
+.carousel-control {
+  color: #f07c0c;
+  opacity: 1;
+}
+
+.slide-img {
+  max-height: 400px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
