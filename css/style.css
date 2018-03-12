@@ -8,11 +8,25 @@
 }
 
 .name {
-  font-size: 40px !important;
+  font-size: 30px !important;
+  position: relative;
+  margin-top: -2%;
+  margin-bottom: 0;
+}
+
+.text-label {
+  position: relative;
+  background: transparent;
+  margin-top: 10px;
+  padding: 10px;
+  width: 350px;
+  border-top: 70px solid white;
+	border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
 }
 
 .navbar-custom {
-  background: #30AEE1;
+  background: #00a2ed;
 }
 
 #orange {
@@ -29,26 +43,27 @@
 
 .skills {
   font-family: times-new-roman;
+  font-size: 20px !important;
 }
 
 section.success {
-  background-color: #30AEE1;
+  background-color: #00a2ed;
 }
 
 .blue {
-  background-color: #30AEE1 !important;
+  background-color: #00a2ed !important;
 }
 
 .white {
   background-color: #ffffff !important;
 }
 
-.skills {
-  font-size: 16px !important;
-}
-
 header {
   background-color: #fff;
+}
+
+.back {
+  background-image: url("../img/back.png");
 }
 
 .carousel-control.right {
@@ -65,7 +80,6 @@ header {
 }
 
 .slide-img {
-  max-height: 400px;
   margin: 0px;
   padding: 0px;
   width: 100%;
