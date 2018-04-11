@@ -7,7 +7,7 @@
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top - 50)
+            scrollTop: ($($anchor.attr('href')).offset().top - 90)
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
@@ -26,7 +26,7 @@
     // Offset for Main Navigation
     $('#mainNav').affix({
         offset: {
-            top: 100
+            top: 50
         }
     })
 
@@ -42,7 +42,7 @@
     });
 
     $('.carousel').carousel({
-      interval: 10
+      interval: 3000
     })
 
 })(jQuery); // End of use strict

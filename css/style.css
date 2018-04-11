@@ -17,10 +17,10 @@
 .text-label {
   position: relative;
   background: transparent;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 10px;
-  width: 350px;
-  border-top: 70px solid white;
+  width: auto;
+  border-top: 60px solid white;
 	border-left: 50px solid transparent;
   border-right: 50px solid transparent;
 }
@@ -42,7 +42,6 @@
 }
 
 .skills {
-  font-family: times-new-roman;
   font-size: 20px !important;
 }
 
@@ -62,10 +61,6 @@ header {
   background-color: #fff;
 }
 
-.back {
-  background-image: url("../img/back.png");
-}
-
 .carousel-control.right {
   background-image: none;
 }
@@ -82,5 +77,29 @@ header {
 .slide-img {
   margin: 0px;
   padding: 0px;
-  width: 100%;
+  width: 70%;
+  margin-left: 40px;
+}
+
+#mainNav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.item {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.slider-img{
+  height: 600px !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+video {
+  height: auto !important;
+}
+.embed-responsive-16by9 {
+  padding-bottom: 20% !important;
 }
